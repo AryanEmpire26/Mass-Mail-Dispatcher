@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+html {
+  height: 100%;
+}
+
+.cname {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+
+.batn {
+  margin: 1px 138px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Raleway', sans-serif;
+  transform: translateX(0%);
+  height: 100%;
+  width: 100%;
+  transition: transform 0.2s linear;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  background-color: whitesmoke;
+  background-image: url("https://www.transparenttextures.com/patterns/lyonnette.png");
+  border-bottom: 0px solid black;
+}
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  letter-spacing: 0px;
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+.header-container .page-center,
+.body-container .page-center,
+.footer-container .page-center {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+  overflow: hidden;
+}
+
+
+.body-container-wrapper {
+  flex: 1 0 auto;
+}
+
+.footer-container-wrapper {
+  flex: 0 0 auto;
+}
+
+.body-container-wrapper .page-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: calc(100vh - 170px);
+}
+
+.custom-header-bg {
+  background: #2196F3;
+  padding: 20px 0;
+  font-family: 'Open Sans', sans-serif;
+  box-shadow: 0 0 12px #000;
+}
+
+.custom-footer-bg {
+  background: #2196f3;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  box-shadow: 0 0 12px #000;
+}
+
+.upload {
+  padding: 0;
+  background-color: #3498db;
+  background-image: 8121991;
+  background-image: -webkit-linear-gradient(#4aa3df 0%, #258cd1 100%);
+  background-image: -moz-linear-gradient(#4aa3df 0%, #258cd1 100%);
+  background-image: -o-linear-gradient(#4aa3df 0%, #258cd1 100%);
+  background-image: linear-gradient(#4aa3df 0%, #258cd1 100%);
+  -webkit-box-shadow: inset rgba(0, 0, 0, 0.2) 0 0 0 1px, rgba(52, 152, 219, 0.5) 0 0 5px;
+  -moz-box-shadow: inset rgba(0, 0, 0, 0.2) 0 0 0 1px, rgba(52, 152, 219, 0.5) 0 0 5px;
+  box-shadow: inset rgba(0, 0, 0, 0.2) 0 0 0 1px, rgba(52, 152, 219, 0.5) 0 0 5px;
+  -webkit-border-radius: 4px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 4px;
+  -moz-background-clip: padding;
+  border-radius: 4px;
+  background-clip: padding-box;
+  padding: 20px 20px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  font-family: Open Sans;
+}
+
+.upload-hidden {
+  visibility: hidden;
+}
+
+.upload {
+  position: relative;
+  overflow: hidden;
+}
+
+.upload:after {
+  content: "";
+  position: absolute;
+  top: -110%;
+  left: -210%;
+  width: 200%;
+  height: 200%;
+  opacity: 0;
+  transform: rotate(30deg);
+  background: rgba(255, 255, 255, 0.13);
+  background: linear-gradient(to right,
+      rgba(255, 255, 255, 0.13) 0%,
+      rgba(255, 255, 255, 0.13) 77%,
+      rgba(255, 255, 255, 0.5) 92%,
+      rgba(255, 255, 255, 0.0) 100%);
+}
+
+.upload:hover:after {
+  opacity: 1;
+  top: -30%;
+  left: 100%;
+  transition-property: left, top, opacity;
+  transition-duration: 0.7s, 0.7s, 0.15s;
+  transition-timing-function: ease;
+}
+
+.upload:active:after {
+  opacity: 0;
+}
+
+.overall span {
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 300;
+  background: #2196f3;
+  display: inline-block;
+  overflow: hidden;
+  z-index: 9;
+  position: relative;
+  padding-right: 10px;
+}
+
+.tables {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+table {
+  text-align: left;
+  float: left;
+  width: 500px;
+}
+
+.uload {
+  font-family: 'Lora', serif;
+  font-weight: 700;
+}
+
+.para {
+  width: 830px;
+  text-align: center;
+}
+
+.bat1 {
+  margin-top: 5px;
+  padding: 14px 0px;
+}
+
+.bat2 {
+  padding: 14px 0px;
+}
